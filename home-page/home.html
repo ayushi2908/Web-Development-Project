@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <!-- <title>Home</title> -->
+  <link rel="stylesheet" href="CSS/home-styles.css" />
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="images/logo.png" alt="logo" width="50rem" height="50rem"/>
+    <nav>
+      <ul class="nav__links">
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="#"><button>Contact</button></a>
+  </header>
+  <div class="introduction">
+    <div class="intro_text">
+      <h1>Introduction</h1>
+      <p>Bhaktivedanta Club is lead by Prof. Laxmidhar Behera at IIT Kanpur. Under
+        guidance of sir, many people work. Main goal of this club is to spread
+        knowledge of Bhagvad Gita. We celebarte many festivals, perform sankirtan
+        at different places, go on retreats to holy places and perform many
+        activities with Lord Krishna in center.
+      </p>
+    </div>
+    <div class="video">
+      <video width="500" controls class="intro_video">
+        <source src="images/intro_video.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <div class="activities">
+    <div class="harinaam_sankirtan">
+      <h2>Harinaam Sankirtan at Nankari and Gooba Garden</h2>
+      <p>
+        Harinaam Sankirtan at Nankari and Gooba Garden; IITK lead by Her Grace
+        Gopali mataji and Dr. Suvendu Samanta prabhuji. Followed by free
+        Prasad distribution. Around 80 people join every Sunday in this
+        preaching program.
+      </p>
+      <div class="image_gallery">
+        <div class="single_img">
+          <img class="hs" src="images/hs1.jpg" alt="" />
+        </div>
+        <div class="single_img">
+          <img class="hs" src="images/hs2.jpg" alt="" />
+        </div>
+        <div class="single_img">
+          <img class="hs" src="images/hs3.jpg" alt="" />
+        </div>
+        <div class="single_img">
+          <img class="hs" src="images/hs4.jpg" alt="" />
+        </div>
+        <div class="single_img">
+          <img class="hs" src="images/hs5.jpg" alt="" />
+        </div>
+        <div class="single_img">
+          <img class="hs" src="images/hs6.jpg" alt="" />
+        </div>
+        <div class="video">
+          <video width="350" controls>
+            <source src="images/video1.mp4" type="video/mp4" />
+          </video>
+          <video width="350" controls>
+            <source src="images/video2.mp4" type="video/mp4" />
+          </video>
+          <video width="350" controls>
+            <source src="images/video3.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg">
+    <div class="about_us">
+      <h1>About Us</h1>
+      <p>We spread the knowledge of Bhagvad Gita. We do spiritual activities
+        according to instructions from Vedic Scriptures.Bhaktivedanta Club is
+        a part of Hare Krishna Movement started by Srila Prabhupada. To join
+        our club please do register.</p>
+    </div>
+    <div class="register-button">
+      <a href="#"><button>Register</button></a>
+    </div>
+  </div>
+  
+  <div class="meet_our_team">
+    <h1>Meet Our Team</h1>
+    <div class="flex_cards">
+      <div class="card">
+        <div class="card__inner" id="card1" onclick="flipCard('card1')">
+          <div class="card_face card_face--front">
+            <h2>Leader Card</h2>
+          </div>
+          <div class="card_face card_face--back">
+            <div class="card__content">
+              <div class="card__header">
+                <img src="images/pp1.png" alt="" class="pp" />
+                <h2>Gopali Mataji</h2>
+              </div>
+              <div class="card__body">
+                <h3>Teacher</h3>
+                <p>She teaches students and leads girls group of Bhaktivedanta
+                  Club, IIT Kanpur. She arranges various programmes inside and
+                  outside IIT Kanpur, like Sunday School for children, harinaam
+                  sankirtan at Nankari.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__inner" id="card2" onclick="flipCard('card2')">
+          <div class="card_face card_face--front">
+            <h2>Assistant Card</h2>
+          </div>
+          <div class="card_face card_face--back">
+            <div class="card__content">
+              <div class="card__header">
+                <img src="images/pp2.png" alt="" class="pp" />
+                <h2>Suvendu Prabhu</h2>
+              </div>
+              <div class="card__body">
+                <h3>Assistant Professor</h3>
+                <p>He is Assistant Professor in Electrical Engineering Deptartment
+                  at IIT, Kanpur. He works under guidance of Prof. Laxmidhar
+                  Behera and assists Gopali Mataji in various tasks also. He
+                  had also arranged Vrinadavan Retreat, 2021 for IIT students.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__inner" id="card3" onclick="flipCard('card3')">
+          <div class="card_face card_face--front">
+            <h2>Assistant Card</h2>
+          </div>
+          <div class="card_face card_face--back">
+            <div class="card__content">
+              <div class="card__header">
+                <img src="images/pp3.png" alt="" class="pp" />
+                <h2>Anu Mataji</h2>
+              </div>
+              <div class="card__body">
+                <h3>Teacher</h3>
+                <p>She assists Gopali Mataji in various tasks and she personally
+                  connects to all the IIT Kanpur girls students. She had also
+                  coordinated Summer camp for kids. She had very nicely lead girls
+                  group for Vrinadavan Retreat, 2021.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="JS/home.js"></script>
+
+</body>
+</html>
